@@ -6,9 +6,9 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: CubeUnlitMat
-  m_Shader: {fileID: 4800000, guid: e86c3405f24e1d14181d3bc039bf9edc, type: 3}
-  m_ShaderKeywords: _EMISSION
+  m_Name: CubeUnlitMatLinear
+  m_Shader: {fileID: 4800000, guid: ed0aa2b14cddf3c4ca092474027dae0f, type: 3}
+  m_ShaderKeywords: LINEAR_COLORSPACE _EMISSION
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -62,6 +62,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _LinearColorSpace: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
